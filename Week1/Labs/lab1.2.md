@@ -81,6 +81,7 @@ For example, your code might look like the following, starting on line 47 after 
 3. Enter `MyAmazingAdventure` as the class name
 4. Customize the class to implement the `AdventureResponder` protocol
 5. Customize the class based on `Adventure.h` and `Adventure.m`
+6. Update `AppDelegate.m` to include your `MyAmazingAdventure.h` header file and assign an instance of `MyAmazingAdventure` to `self.responder` on line 24.
 
 For #5 above, here are some ideas to try:
 
