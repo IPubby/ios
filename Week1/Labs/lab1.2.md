@@ -23,6 +23,8 @@ Try out a web version of the original [here](http://www.web-adventures.org/cgi-b
 3. Open the app in Xcode by double-clicking the project file: `Adventure`
 4. Run the app in the simulator by clicking on the Play icon or click on `Product -> Run`
 
+**Tip** This app requires iOS 7 or later. If you see an error or the app crashes, make sure that you have an iOS 7.1 Simulator selected. You can change the simulator version by clicking on the Device drop down menu next to the Play and Stop buttons. For example, click on "iPhone > iOS 6.1" (or whichever device is currently displayed), and select "iPhone Retina (4-inch) > iOS 7.1".
+
 ### Playing
 
 When the simulator opens, you'll see empty view with a text field at the bottom. Tap the text field to bring up the keyboard and try typing anything and hit enter. You will probably see:
