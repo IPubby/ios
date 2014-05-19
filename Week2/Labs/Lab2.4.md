@@ -6,6 +6,7 @@ For this lab, we'll be adding a detail view to the Smarticle demo app.
 
 ### Objectives
 
+- Practice adding files to an existing project
 - Gain an understanding of standalone nib files
 - Display details in response to a tap on a table view cell
 - More practice with properties, targets, and outlets
@@ -17,85 +18,83 @@ For this lab, we'll be adding a detail view to the Smarticle demo app.
 
 ### Development Setup
 
-1. Clone the GitHub repository: `git@github.com:gosmartfactory/ios.git`
-2. Browse to the following directory: `Week2/Source/Smarticle`
-3. Open the app in Xcode by double-clicking the project file: `Smarticle`
-4. Run the app in the simulator by clicking on the Play icon or click on `Product -> Run`
+1. Complete Lab 2.3 before continuing.
 
-### Display a Generic Table View via a Segue
+### Add a New View Controller to the Project
 
-Let's add a table view controller to our main storyboard and display it when the user taps the `Articles` button.
+1. In Xcode, select the `Smarticle` folder in the Project Navigator.
+2. Then create a new view controller: File > New > File.
+3. Select `Objective-C Class`.
+4. Enter `DetailViewController` in the `Class` text field.
+5. Enter `UIViewController` in the `Subclass of` text field.
+6. Check the `Also create XIB file` check box.
+7. Select iPhone from the platform dropdown.
+8. Click `Next`.
+9. Click `Create`.
 
-1. In Xcode, select `Main.storyboard` in the Project Navigator to open the storyboard.
-2. Open the Utilities view: View > Utilities > Show Object Library.
-3. Click on the Table View Controller item and drag it to your storyboard.
-4. Control-click on the `Articles` button and drag a blue line to the new Table View Controller.
-5. Select `Push` from the segue options.
-6. Click the Play button to run the app in the simulator.
+### Flesh Out the Detail View
 
-When the app runs in the simulator, you should be able to reveal a generic table view controller by clicking on the `Articles` button. There won't be any data in the table view yet!
+Let's flesh out the detail view a bit to keep track of the selected article and include a placeholder label for the title of the article.
 
-### Update the Generic Table View to be ListViewController Instead
-
-1. Open `Main.storyboard`.
-2. Select the table view controller.
-3. Open the Identity Inspector: View > Utilities > Show Identity Inspector.
-4. In the `Custom Class` field, enter `ListViewController`.
-5. Select the Table View Cell on the storyboard. In the Attributes Inspector (View > Utilities > Show Attributes Inspector), select `Basic` in the style dropdown.
-6. Enter `Default Cell` in the `Reuse Identifier` text box.
-7. Click the Play button to run the app in the simulator.
-
-To confirm that `ListViewController` is being displayed, you can place a breakpoint in the `viewDidLoad` method in `ListViewController.m`.
-
-Add a breakpoint on line 37 by clicking on the line number in the gutter in Xcode. A blue marker should appear in the gutter to indicate that you've placed a breakpoint.
+1. Add a public property with the type `Article *` to `DetailViewController.h`. (Note: You'll need to import `Article.h` to add a property with this type.)
+2. Add a private property called `titleLabel` to `DetailViewController.m`.
+3. Open the `DetailViewController.xib` and add a UILabel object and wire it up to the private property. (Note: the process for wiring up the label is the same as wiring up the button in Lab 2.2.)
+4. Open `DetailViewController.m` and implement the `viewDidLoad` callback to update the `titleLabel.text` value to the title of the article.
 
 ```objective-c
 - (void)viewDidLoad
 {
-    [super viewDidLoad];                          // Add a breakpoint to this line.
-    self.articles = [Article demoArticles];
+    [super viewDidLoad];
+    self.titleLabel.text = self.article.title; // Add this line to display the title of the article.
 }
 ```
 
-Click the Play button in Xcode to run the app. Xcode should display the breakpoint for you when you tap on the Articles button.
-
-### Fill in the `UITableViewDataSource` Methods
-
-1. Open `ListViewController.m`.
-2. Uncomment lines 19 through 21.
-3. Replace the empty methods with implementations like the examples below.
+Hint: For step 1 above, you'll need to add an import line to the top of `DetailViewController.h` The top of `DetailViewController.h` should look like this when you're done:
 
 ```objective-c
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return 99;
-}
+#import <UIKit/UIKit.h>
+#import "Article.h"
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = [[UITableViewCell alloc] init];
-    return cell;
-}
+@interface DetailViewController : UIViewController
 ```
 
-Click the Play button to run the app in the simulator.
+### Display the Detail View when Tapping on a Cell
 
-When the app runs in the simulator, you'll see that the table view lists 99 blank table view cells. Let's replace the placehoder values with "realer" data.
+#### Import the DetailViewController header into `ListViewController.m`
+
+* Add `import "DetailViewController.h"` to the top of `ListViewController.m`.
 
 ```objective-c
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    return self.articles.count;
-}
+#import "ListViewController.h"
+#import "Article.h"
+#import "DetailViewController.h" // Add this line to import DetailViewController.h
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *CellIdentifier = @"Default Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-    Article *article = [self.articles objectAtIndex:indexPath.row];
-    cell.textLabel.text = article.title;
-    return cell;
-}
+@interface ListViewController ()
 ```
 
-Click the Play button in Xcode to run the app in the simulator. When the app runs, you should see a list of demo data articles when you tap on the `Articles` button.
+#### Present Detail View Controller via a Push Transition
+
+To display the detail view controller, we can add a few lines of code to `ListViewController.m` to implement `didSelectRowAtIndexPath`. The final code looks something like this. A description of these lines can be found below.
+
+```objective-c
+1. - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+2. {
+3.     Article *article = [self.articles objectAtIndex:indexPath.row];
+4.     DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
+5.     detailViewController.article = article;
+6.     [self.navigationController pushViewController:detailViewController animated:YES];
+7. }
+```
+
+Line 3: Look up the article displayed that this index based on the `indexPath` provided by the caller.
+
+Line 4: Create a new instance of DetailViewController based on the nib file we created.
+
+Line 5: Assign a reference to the selected article to the view controller's public `article` property.
+
+Line 6: Display the view controller via a push transition.
+
+### Next Steps
+
+* Extend the detail view to include a `Favorite` button that invokes a private `IBAction` in `DetailViewController`. No need to implement this method for now. We'll work on saving and loading favorites in a future class.
+* Display more details from the article on the detail view. For example, you could display the byline, abstract, or any other property that's available via the existing `Article` class.
