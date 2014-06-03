@@ -26,6 +26,7 @@
 		22529B7318397D0E00AB7197 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22529B7118397D0E00AB7197 /* InfoPlist.strings */; };
 		22529B7518397D0E00AB7197 /* SmarticleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22529B7418397D0E00AB7197 /* SmarticleTests.m */; };
 		2291C3F5183AB2F100949A02 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291C3F4183AB2F100949A02 /* ListViewController.m */; };
+		66ED6A0F193D4B290048A79C /* ArticleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 66ED6A0E193D4B290048A79C /* ArticleProvider.m */; };
 		66EE273C1842680200B11042 /* ArticlesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EE273B1842680200B11042 /* ArticlesController.m */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		22529B7418397D0E00AB7197 /* SmarticleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmarticleTests.m; sourceTree = "<group>"; };
 		2291C3F3183AB2F100949A02 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		2291C3F4183AB2F100949A02 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		66ED6A0D193D4B290048A79C /* ArticleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleProvider.h; sourceTree = "<group>"; };
+		66ED6A0E193D4B290048A79C /* ArticleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleProvider.m; sourceTree = "<group>"; };
 		66EE273A1842680200B11042 /* ArticlesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesController.h; sourceTree = "<group>"; };
 		66EE273B1842680200B11042 /* ArticlesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,6 +149,8 @@
 				22529B5E18397D0E00AB7197 /* MainViewController.h */,
 				22529B5F18397D0E00AB7197 /* MainViewController.m */,
 				22529B5018397D0E00AB7197 /* Supporting Files */,
+				66ED6A0D193D4B290048A79C /* ArticleProvider.h */,
+				66ED6A0E193D4B290048A79C /* ArticleProvider.m */,
 			);
 			path = Smarticle;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 				2291C3F5183AB2F100949A02 /* ListViewController.m in Sources */,
 				22529B5618397D0E00AB7197 /* main.m in Sources */,
 				224C8990183BBC9800F773E1 /* DetailViewController.m in Sources */,
+				66ED6A0F193D4B290048A79C /* ArticleProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
