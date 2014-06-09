@@ -2,10 +2,8 @@
 
 @implementation Article
 
-+ (NSArray *)articlesForJSON:(id)json
++ (NSArray *)articlesForJSON:(NSArray *)resultsArray
 {
-    NSArray *resultsArray = json[@"results"];
-    
     NSMutableArray *mutableArticles = [[NSMutableArray alloc] initWithCapacity:resultsArray.count];
     
     for (NSDictionary *resultsDictionary in resultsArray)

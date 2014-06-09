@@ -1,8 +1,10 @@
 #import "ListViewController.h"
 #import "Article.h"
 #import "ArticleCell.h"
+#import "ArticleProvider.h"
 #import "ArticlesController.h"
 #import "DetailViewController.h"
+#import "FavoritesArticleProvider.h"
 #import "LoadingSpinnerView.h"
 
 /// Identifier for article cells for reuse. This value must match the identifier specified for the
@@ -10,7 +12,7 @@
 ///
 static NSString *CellIdentifier = @"ArticleCell";
 
-@interface ListViewController ()
+@interface ListViewController () <ArticleProviderDelegate>
 
 #pragma mark - Private Properties
 
@@ -18,103 +20,44 @@ static NSString *CellIdentifier = @"ArticleCell";
 ///
 @property (nonatomic, strong) ArticleCell *articleCellForHeight;
 
-/// List of articles to display in the list.
+/// Provides articles to display in the list.
 ///
-@property (nonatomic, strong) NSArray *articles;
-
-/// The currently loaded offset from the current results set.
-///
-@property (nonatomic, assign) NSUInteger currentOffset;
-
-/// The offset that is currently loading or will be loaded the next time reloadArticles is called.
-///
-@property (nonatomic, assign) NSUInteger loadingOffset;
+@property (nonatomic, strong) ArticleProvider *articles;
 
 @property (nonatomic, strong) LoadingSpinnerView *loadingSpinner;
-
-/// The total number of articles available in the results set.
-///
-@property (nonatomic, assign) NSUInteger totalNumberOfArticles;
-
-#pragma mark - Private Methods
-
-/// Whether or not there are more articles available to load.
-///
-/// @return
-///     YES if more articles can be loaded from the current offset; NO otherwise.
-///
-- (BOOL)canLoadMoreArticles;
-
-/// Whether or not articles are currently being loaded.
-///
-/// @return
-///     YES if the receiver is in the midst of loading articles; NO otherwise.
-///
-- (BOOL)isLoadingArticles;
-
-/// Reloads articles from the articles controller.
-///
-/// If there are more articles to load and no articles are currently loading, reloads the articles
-/// from the articles controller asynchronously.
-///
-- (void)reloadArticles;
 
 @end
 
 @implementation ListViewController
 
-#pragma mark - Private Methods
+#pragma mark - ArticlesProviderDelegate
 
-- (BOOL)canLoadMoreArticles
+- (void)provider:(id)provider didLoadDataAtIndexes:(NSIndexSet *)indexes
 {
-    return self.currentOffset + 20 < self.totalNumberOfArticles;
-}
+    [self.loadingSpinner stopAnimating];
+    
+    NSMutableArray *indexPaths = [NSMutableArray array];
 
-- (BOOL)isLoadingArticles
-{
-    return self.currentOffset != self.loadingOffset;
-}
-
-- (void)reloadArticles
-{
-    if (self.currentOffset != self.loadingOffset)
+    [indexes enumerateIndexesUsingBlock:^(NSUInteger idx, BOOL *stop) {
+        [indexPaths addObject:[NSIndexPath indexPathForRow:idx inSection:0]];
+    }];
+    
+    if (indexPaths.count > 0)
     {
-        [self.loadingSpinner startAnimating];
-        
-        [[ArticlesController sharedInstance] getArticlesForArticleType:self.articleType
-                                                                 offset:self.loadingOffset
-                                                      completionHandler:^(NSArray *articles,
-                                                                          NSNumber *numberOfResults,
-                                                                          NSError *error)
-         {
-             self.currentOffset = self.loadingOffset;
-             [self.loadingSpinner stopAnimating];
-             
-             if (error)
-             {
-                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Drat!"
-                                                                 message:@"We're sorry, we can't get any articles at the moment. Please try again later."
-                                                                delegate:nil
-                                                       cancelButtonTitle:@"OK"
-                                                       otherButtonTitles:nil];
-                 [alert show];
-             }
-             else
-             {
-                 if (self.articles == nil)
-                 {
-                     self.articles = articles;
-                     self.totalNumberOfArticles = [numberOfResults unsignedIntegerValue];
-                 }
-                 else
-                 {
-                     self.articles = [self.articles arrayByAddingObjectsFromArray:articles];
-                 }
-                 
-                 [self.tableView reloadData];
-             }
-         }];
+        [self.tableView insertRowsAtIndexPaths:indexPaths withRowAnimation:UITableViewRowAnimationFade];
     }
+}
+
+- (void)provider:(id)provider didFailWithError:(NSError *)error
+{
+    [self.loadingSpinner stopAnimating];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Drat!"
+                                                    message:@"We're sorry, we can't get any articles at the moment. Please try again later."
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
 }
 
 #pragma mark - UIScrollViewDelegate
@@ -123,12 +66,7 @@ static NSString *CellIdentifier = @"ArticleCell";
 {
     if (scrollView.contentOffset.y >= scrollView.contentSize.height - scrollView.frame.size.height)
     {
-        if ([self isLoadingArticles] == NO && [self canLoadMoreArticles] == YES)
-        {
-            self.loadingOffset = self.currentOffset + 20;
-
-            [self reloadArticles];
-        }
+        [self.articles loadMoreArticles];
     }
 }
 
@@ -142,8 +80,7 @@ static NSString *CellIdentifier = @"ArticleCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     ArticleCell *cell = (ArticleCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    cell.article = [self.articles objectAtIndex:indexPath.row];
-
+    cell.article = [self.articles articleAtIndex:indexPath.row];
     return cell;
 }
 
@@ -151,7 +88,7 @@ static NSString *CellIdentifier = @"ArticleCell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    Article *article = [self.articles objectAtIndex:indexPath.row];
+    Article *article = [self.articles articleAtIndex:indexPath.row];
     DetailViewController *detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil];
     detailViewController.article = article;
     [self.navigationController pushViewController:detailViewController animated:YES];
@@ -165,7 +102,8 @@ static NSString *CellIdentifier = @"ArticleCell";
         self.articleCellForHeight = [[articleCellNib instantiateWithOwner:nil options:nil] firstObject];
     }
 
-    self.articleCellForHeight.article = [self.articles objectAtIndex:indexPath.row];
+    Article *article = [self.articles articleAtIndex:indexPath.row];
+    self.articleCellForHeight.article = article;
 
     // [self.articleCellForHeight setNeedsUpdateConstraints];
     // [self.articleCellForHeight updateConstraintsIfNeeded];
@@ -185,36 +123,41 @@ static NSString *CellIdentifier = @"ArticleCell";
     [super viewDidLoad];
 
     self.navigationController.navigationBar.barTintColor = [[Settings sharedInstance] colorForArticleType:self.articleType];
-
+    
     switch (self.articleType)
     {
         case ArticleTypeFavorites:
             self.title = @"Favorites";
+            self.articles = [[FavoritesArticleProvider alloc] init];
             break;
 
         case ArticleTypeMostEmailed:
             self.title = @"Most Emailed";
+            self.articles = [[ArticleProvider alloc] initWithResourceType:ArticleProviderResourceTypeMostEmailed];
             break;
 
         case ArticleTypeMostShared:
             self.title = @"Most Shared";
+            self.articles = [[ArticleProvider alloc] initWithResourceType:ArticleProviderResourceTypeMostShared];
             break;
 
         case ArticleTypeMostViewed:
             self.title = @"Most Viewed";
+            self.articles = [[ArticleProvider alloc] initWithResourceType:ArticleProviderResourceTypeMostViewed];
             break;
     }
-
+    
     self.loadingSpinner = [[LoadingSpinnerView alloc] initWithFrame:self.view.bounds];
     self.loadingSpinner.color = [[Settings sharedInstance] colorForArticleType:self.articleType];
     self.loadingSpinner.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.loadingSpinner startAnimating];
     [self.view addSubview:self.loadingSpinner];
+
+    self.articles.delegate = self;
+    [self.articles reload];
 
     [self.tableView registerNib:[UINib nibWithNibName:@"ArticleCell" bundle:nil]
          forCellReuseIdentifier:CellIdentifier];
-
-    self.currentOffset = -1;
-    [self reloadArticles];
 }
 
 - (void)viewWillAppear:(BOOL)animated

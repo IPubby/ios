@@ -46,6 +46,8 @@
 		2291C3F5183AB2F100949A02 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291C3F4183AB2F100949A02 /* ListViewController.m */; };
 		22F5D5F1184ABCFF00549C96 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5D5F0184ABCFF00549C96 /* Settings.m */; };
 		666E74DE184A8219009DB9AC /* LoadingSpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666E74DD184A8219009DB9AC /* LoadingSpinnerView.m */; };
+		669662F819454D3000333B56 /* ArticleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 669662F719454D3000333B56 /* ArticleProvider.m */; };
+		669662FB1945734B00333B56 /* FavoritesArticleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 669662FA1945734B00333B56 /* FavoritesArticleProvider.m */; };
 		66BA6DED184BBF4100DC41DE /* LightningBoltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66BA6DEC184BBF4100DC41DE /* LightningBoltView.m */; };
 		66EE273C1842680200B11042 /* ArticlesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EE273B1842680200B11042 /* ArticlesController.m */; };
 /* End PBXBuildFile section */
@@ -130,6 +132,10 @@
 		22F5D5F0184ABCFF00549C96 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		666E74DC184A8219009DB9AC /* LoadingSpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingSpinnerView.h; sourceTree = "<group>"; };
 		666E74DD184A8219009DB9AC /* LoadingSpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingSpinnerView.m; sourceTree = "<group>"; };
+		669662F619454D3000333B56 /* ArticleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleProvider.h; sourceTree = "<group>"; };
+		669662F719454D3000333B56 /* ArticleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleProvider.m; sourceTree = "<group>"; };
+		669662F91945734B00333B56 /* FavoritesArticleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesArticleProvider.h; sourceTree = "<group>"; };
+		669662FA1945734B00333B56 /* FavoritesArticleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesArticleProvider.m; sourceTree = "<group>"; };
 		66BA6DEB184BBF4100DC41DE /* LightningBoltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningBoltView.h; sourceTree = "<group>"; };
 		66BA6DEC184BBF4100DC41DE /* LightningBoltView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightningBoltView.m; sourceTree = "<group>"; };
 		66EE273A1842680200B11042 /* ArticlesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesController.h; sourceTree = "<group>"; };
@@ -263,6 +269,8 @@
 				224809A3184AE58E00B3129A /* ArticleImage.m */,
 				66EE273A1842680200B11042 /* ArticlesController.h */,
 				66EE273B1842680200B11042 /* ArticlesController.m */,
+				669662F619454D3000333B56 /* ArticleProvider.h */,
+				669662F719454D3000333B56 /* ArticleProvider.m */,
 				224C898E183BBC9800F773E1 /* DetailViewController.h */,
 				224C898F183BBC9800F773E1 /* DetailViewController.m */,
 				224C8991183BC00B00F773E1 /* DetailViewController.xib */,
@@ -279,6 +287,8 @@
 				22F5D5F0184ABCFF00549C96 /* Settings.m */,
 				2248096D184AE42100B3129A /* External */,
 				22529B5018397D0E00AB7197 /* Supporting Files */,
+				669662F91945734B00333B56 /* FavoritesArticleProvider.h */,
+				669662FA1945734B00333B56 /* FavoritesArticleProvider.m */,
 			);
 			path = Smarticle;
 			sourceTree = "<group>";
@@ -357,7 +367,7 @@
 		22529B3E18397D0E00AB7197 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Smart Factory";
 				TargetAttributes = {
 					22529B6618397D0E00AB7197 = {
@@ -412,8 +422,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669662F819454D3000333B56 /* ArticleProvider.m in Sources */,
 				22480986184AE43000B3129A /* AFSecurityPolicy.m in Sources */,
 				22310AFE183B2CA800CDF796 /* Article.m in Sources */,
+				669662FB1945734B00333B56 /* FavoritesArticleProvider.m in Sources */,
 				22480985184AE43000B3129A /* AFNetworkReachabilityManager.m in Sources */,
 				22529B6018397D0E00AB7197 /* MainViewController.m in Sources */,
 				2248099B184AE4DE00B3129A /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -493,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -531,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -588,6 +602,7 @@
 		22529B7C18397D0E00AB7197 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smarticle.app/Smarticle";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -610,6 +625,7 @@
 		22529B7D18397D0E00AB7197 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smarticle.app/Smarticle";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
