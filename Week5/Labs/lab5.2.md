@@ -1,4 +1,4 @@
-Lab 5.1
+Lab 5.2
 ---
 
 In this lab, we'll be profiling a special version of Smarticle to see if we can't find some bottlenecks or places that we can optimize.
