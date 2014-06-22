@@ -1,0 +1,1529 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2013 The New York Times Company.  All Rights Reserved.",
+    "num_results": 940,
+    "results": [
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/health\/the-selling-of-attention-deficit-disorder.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "Health",
+                "byline": "By ALAN SCHWARZ",
+                "title": "The Selling of Attention Deficit Disorder",
+                "abstract": "Diagnoses have soared as makers of the drugs used to treat attention deficit hyperactivity disorder have found success with a two-decade marketing campaign.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "ATTENTION DEFICIT HYPERACTIVITY DISORDER",
+                              "DRUGS (PHARMACEUTICALS)"
+                              ],
+                "org_facet": [
+                              "SHIRE PLC"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "“This is a concoction to justify the giving out of medication at unprecedented and unjustifiable levels,” Keith Conners, a psychologist and early advocate for recognition of A.D.H.D., said of the rising rates of diagnosis of the disorder.",
+                          "copyright": "Karsten Moran for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-A\/STIMULANT-A-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-A\/STIMULANT-A-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-A\/STIMULANT-A-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic1\/15stimulant-graphic1-thumbStandard-v3.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic1\/15stimulant-graphic1-thumbLarge-v3.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic1\/15stimulant-graphic1-mediumThreeByTwo210-v3.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Roger Griggs, who introduced Adderall in 1994 before ads portraying medication as a way to improve grades and behavior were allowed, said, “There’s no way on God’s green earth we would ever promote” stimulants directly to consumers.",
+                          "copyright": "Karsten Moran for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-B\/STIMULANT-B-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-B\/STIMULANT-B-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/STIMULANT-B\/STIMULANT-B-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic2\/15stimulant-graphic2-thumbStandard-v2.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic2\/15stimulant-graphic2-thumbLarge-v2.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/15stimulant-graphic2\/15stimulant-graphic2-mediumThreeByTwo210-v2.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/a-formula-for-happiness.html",
+                "count_type": "EMAILED",
+                "column": "Opinion",
+                "section": "Opinion",
+                "byline": "By ARTHUR C. BROOKS",
+                "title": "A Formula for Happiness",
+                "abstract": "Social scientists have determined three sources of supreme contentment: genes, events and values.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "HAPPINESS",
+                              "LABOR AND JOBS",
+                              "POLLS AND PUBLIC OPINION"
+                              ],
+                "org_facet": "",
+                "per_facet": "",
+                "geo_facet": [
+                              "UNITED STATES"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Brian Rea",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15HAPPINESS\/15HAPPINESS-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15HAPPINESS\/15HAPPINESS-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15HAPPINESS\/15HAPPINESS-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/skip-the-supplements.html",
+                "count_type": "EMAILED",
+                "column": "Opinion",
+                "section": "Opinion",
+                "byline": "By PAUL A. OFFIT and SARAH ERUSH",
+                "title": "Skip the Supplements",
+                "abstract": "Dietary supplements: mislabeled, contaminated and probably useless.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "DIETARY SUPPLEMENTS AND HERBAL REMEDIES",
+                              "VITAMINS",
+                              "LABELING AND LABELS"
+                              ],
+                "org_facet": [
+                              "FOOD AND DRUG ADMINISTRATION"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Melody Newcomb",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15SUPPLEMENT\/15SUPPLEMENT-thumbStandard-v2.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15SUPPLEMENT\/15SUPPLEMENT-thumbLarge-v2.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15SUPPLEMENT\/15SUPPLEMENT-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/in-math-and-science-the-best-fend-for-themselves.html",
+                "count_type": "EMAILED",
+                "column": "Editorial | Numbers Crunch",
+                "section": "Opinion",
+                "byline": "By THE EDITORIAL BOARD",
+                "title": "Even Gifted Students Can\u2019t Keep Up",
+                "abstract": "With its best students far behind their foreign peers, America needs new ideas to nurture their talent and produce new innovators.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "EDUCATION (K-12)",
+                              "SCIENCE AND TECHNOLOGY",
+                              "MATHEMATICS",
+                              "ADMISSIONS STANDARDS"
+                              ],
+                "org_facet": "",
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "EKTA",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15STEM\/15STEM-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15STEM\/15STEM-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15STEM\/15STEM-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/opinion\/video-editorial-history-museum\/video-editorial-history-museum-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/opinion\/video-editorial-history-museum\/video-editorial-history-museum-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/business\/solving-the-shortage-in-primary-care-doctors.html",
+                "count_type": "EMAILED",
+                "column": "Economic View",
+                "section": "Business Day",
+                "byline": "By CATHERINE RAMPELL",
+                "title": "Solving the Shortage in Primary Care Doctors",
+                "abstract": "Congress and the hospitals have established a residency system that doesn\u2019t train the doctors Americans need most.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "DOCTORS",
+                              "LABOR AND JOBS"
+                              ],
+                "org_facet": [
+                              "ASSN OF AMERICAN MEDICAL COLLEGES"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Morgan Schweitzer",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-VIEW\/15-VIEW-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-VIEW\/15-VIEW-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-VIEW\/15-VIEW-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/us\/scientists-turn-their-gaze-toward-tiny-threats-to-great-lakes.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "U.S.",
+                "byline": "By JOHN SCHWARTZ",
+                "title": "Scientists Turn Their Gaze Toward Tiny Threats to Great Lakes",
+                "abstract": "Scientists have worried about plastic debris in the oceans for decades, but focused on enormous accumulations. More recently, the question of smaller bits has gained attention.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "WATER POLLUTION",
+                              "FISH AND OTHER MARINE LIFE",
+                              "LAKES",
+                              "COSMETICS AND TOILETRIES"
+                              ],
+                "org_facet": [
+                              "NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION",
+                              "PROCTER & GAMBLE COMPANY",
+                              "UNILEVER NV",
+                              "JOHNSON & JOHNSON"
+                              ],
+                "per_facet": "",
+                "geo_facet": [
+                              "GREAT LAKES"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Brendan Bannon for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/20131215-BEADS-slide-979K\/20131215-BEADS-slide-979K-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/20131215-BEADS-slide-979K\/20131215-BEADS-slide-979K-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/us\/20131215-BEADS-slide-979K\/20131215-BEADS-slide-979K-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/14\/opinion\/macmillan-the-great-wars-ominous-echoes.html",
+                "count_type": "EMAILED",
+                "column": "Op-Ed Contributor",
+                "section": "Opinion",
+                "byline": "By MARGARET MacMILLAN",
+                "title": "The Great War\u2019s Ominous Echoes",
+                "abstract": "If we cannot determine how World War I happened, how can we hope to avoid another such catastrophe?",
+                "published_date": "2013-12-14",
+                "source": "The New York Times",
+                "des_facet": [
+                              "WORLD WAR I (1914-18)",
+                              "INTERNATIONAL RELATIONS",
+                              "DEFENSE AND MILITARY FORCES",
+                              "UNITED STATES DEFENSE AND MILITARY FORCES",
+                              "UNITED STATES INTERNATIONAL RELATIONS"
+                              ],
+                "org_facet": [
+                              "MCDONALD'S CORPORATION",
+                              "MCD",
+                              "NYSE"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Robert G. Fresson",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/opinion\/14macmillan\/14macmillan-thumbStandard-v3.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/opinion\/14macmillan\/14macmillan-thumbLarge-v3.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/opinion\/14macmillan\/14macmillan-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/travel\/seduced-by-naples.html",
+                "count_type": "EMAILED",
+                "column": "Favorite Place",
+                "section": "Travel",
+                "byline": "By RACHEL DONADIO",
+                "title": "Seduced by Naples",
+                "abstract": "More than Florence, Rome or Venice, the author argues, it is Naples that is one of the most romantic cities in the world.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "TRAVEL AND VACATIONS"
+                              ],
+                "org_facet": "",
+                "per_facet": "",
+                "geo_facet": [
+                              "NAPLES (ITALY)",
+                              "ROME (ITALY)"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "A view of the city from the former monastery of San Martino.",
+                          "copyright": "Giulio Piscitelli for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15NAPLES\/15NAPLES-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15NAPLES\/15NAPLES-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15NAPLES\/15NAPLES-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Looking at Caravaggio's “The Flagellation.”",
+                          "copyright": "Giulio Piscitelli for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES4\/15JPNAPLES4-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES4\/15JPNAPLES4-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES4\/15JPNAPLES4-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "A marble skull in the courtyard of San Martino.",
+                          "copyright": "Giulio Piscitelli for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES7\/15JPNAPLES7-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES7\/15JPNAPLES7-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES7\/15JPNAPLES7-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Vegetables for sale in the Quartieri Spagnoli.",
+                          "copyright": "Giulio Piscitelli for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES11\/15JPNAPLES11-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES11\/15JPNAPLES11-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES11\/15JPNAPLES11-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Mount Vesuvius looms over the city.",
+                          "copyright": "Gianni Cipriano for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES6\/15JPNAPLES6-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES6\/15JPNAPLES6-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES6\/15JPNAPLES6-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "The Gesù Nuovo church.",
+                          "copyright": "Giulio Piscitelli for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES8\/15JPNAPLES8-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES8\/15JPNAPLES8-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15JPNAPLES8\/15JPNAPLES8-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/nyregion\/bloomberg-focuses-on-rest-as-in-rest-of-world.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "N.Y. \/ Region",
+                "byline": "By MICHAEL BARBARO",
+                "title": "Bloomberg Focuses on Rest (as in Rest of the World)",
+                "abstract": "Mayor Michael R. Bloomberg will take much of his City Hall team with him as he creates a consulting group to help him reshape cities around the globe.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "CONSULTANTS"
+                              ],
+                "org_facet": [
+                              "BLOOMBERG PHILANTHROPIES"
+                              ],
+                "per_facet": [
+                              "BLOOMBERG, MICHAEL R",
+                              "DE BLASIO, BILL"
+                              ],
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Mayor Michael R. Bloomberg with his girlfriend, Diana L. Taylor, at an Association for a Better New York event. Mr. Bloomberg’s consulting group will include many of his best-known deputies.",
+                          "copyright": "Angel Franco\/The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/15jpbloomberg\/15jpbloomberg-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/15jpbloomberg\/15jpbloomberg-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/15jpbloomberg\/15jpbloomberg-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "George A. Fertitta, left, will run Mayor Michael R. Bloomberg’s new consulting group.",
+                          "copyright": "Justin Sullivan\/Getty Images",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/bloomberg\/bloomberg-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/bloomberg\/bloomberg-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/nyregion\/bloomberg\/bloomberg-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/14\/your-money\/for-the-aging-an-alternative-to-giving-up-the-car-keys.html",
+                "count_type": "EMAILED",
+                "column": "Shortcuts",
+                "section": "Your Money",
+                "byline": "By ALINA TUGEND",
+                "title": "An Alternative to Giving Up the Car Keys",
+                "abstract": "The number of older drivers on the road is growing, but technology and training could keep them behind the wheel safely for longer.",
+                "published_date": "2013-12-14",
+                "source": "The New York Times",
+                "des_facet": [
+                              "TRAFFIC ACCIDENTS AND SAFETY",
+                              "DRIVERS EDUCATION"
+                              ],
+                "org_facet": "",
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Anne Hegberg, left, an occupational therapist who specializes in helping drivers compensate for any lost skills, with a client, JoAnn Mantzke, 80.",
+                          "copyright": "John Gress for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/SHORTCUTS\/SHORTCUTS-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/SHORTCUTS\/SHORTCUTS-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/SHORTCUTS\/SHORTCUTS-mediumThreeByTwo210-v2.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Donna Stressel, a driving specialist, evaluating the driving skills of Robert Cullon, 80. She found him fit to take the wheel.",
+                          "copyright": "Charlie Samuels for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/Shortcutsjp\/Shortcutsjp-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/Shortcutsjp\/Shortcutsjp-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/business\/Shortcutsjp\/Shortcutsjp-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/business\/international\/paradise-of-untouchable-assets.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "Business Day",
+                "byline": "By LESLIE WAYNE",
+                "title": "Cook Islands, a Paradise of Untouchable Assets",
+                "abstract": "These flyspeck islands in the Pacific have the reputation of being a place where assets can be hidden from business partners, litigants or former spouses.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "MALPRACTICE"
+                              ],
+                "org_facet": [
+                              "INTERNATIONAL CONSORTIUM OF INVESTIGATIVE JOURNALISTS"
+                              ],
+                "per_facet": "",
+                "geo_facet": [
+                              "COOK ISLANDS"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Glynis Sweeny",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS\/15-COOKS-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS\/15-COOKS-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS\/15-COOKS-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "A recent data leak revealed that R. Allen Stanford, who was convicted of running a $7 billion Ponzi scheme, held a Cook trust.",
+                          "copyright": "Richard Carson\/Reuters",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP1\/15-COOKS-JP1-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP1\/15-COOKS-JP1-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP1\/15-COOKS-JP1-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Dr. Michael Kamrava, a fertility doctor who lost his license in the “Octomom” case, also had assets in the Cook Islands.",
+                          "copyright": "Nick Ut\/Associated Press",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP2\/15-COOKS-JP2-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP2\/15-COOKS-JP2-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP2\/15-COOKS-JP2-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Denise Rich, ex-wife of the disgraced trader Marc Rich, had a Cook trust worth more than $100 million.",
+                          "copyright": "Dimitrios Kambouris\/Getty Images for Princess Grace Foundation",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP3\/15-COOKS-JP3-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP3\/15-COOKS-JP3-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/15-COOKS-JP3\/15-COOKS-JP3-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/bruni-the-catholics-still-in-exile.html",
+                "count_type": "EMAILED",
+                "column": "Op-Ed Columnist",
+                "section": "Opinion",
+                "byline": "By FRANK BRUNI",
+                "title": "The Catholics Still in Exile",
+                "abstract": "Pope Francis\u2019 words are gentle, but the church\u2019s treatment of some employees remains harsh, impeding the outreach to disaffected Catholics.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "PRIVATE AND SECTARIAN SCHOOLS"
+                              ],
+                "org_facet": [
+                              "ROMAN CATHOLIC CHURCH"
+                              ],
+                "per_facet": [
+                              "FRANCIS"
+                              ],
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Ben Wiseman",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15BRUNI\/15BRUNI-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15BRUNI\/15BRUNI-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/sunday-review\/15BRUNI\/15BRUNI-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Frank Bruni",
+                          "copyright": "Earl Wilson\/The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2011\/06\/24\/opinion\/Bruni_new\/Bruni_new-thumbStandard-v3.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2011\/06\/24\/opinion\/Bruni_new\/Bruni_new-thumbLarge-v2.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/14\/arts\/music\/paul-simon-on-mandelas-role-in-graceland.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "Arts",
+                "byline": "By PAUL SIMON",
+                "title": "Remembering Days of Miracle and Wonder",
+                "abstract": "Paul Simon recalls how the spirit of Nelson Mandela infused the music of \u201cGraceland\u201d and his tours with South African musicians.",
+                "published_date": "2013-12-14",
+                "source": "The New York Times",
+                "des_facet": [
+                              "MUSIC"
+                              ],
+                "org_facet": "",
+                "per_facet": [
+                              "MANDELA, NELSON"
+                              ],
+                "geo_facet": [
+                              "SOUTH AFRICA"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Nelson Mandela and Paul Simon in 1992.",
+                          "copyright": "Anna Zieminski\/LGI\n",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELAND\/14GRACELAND-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELAND\/14GRACELAND-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELAND\/14GRACELAND-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Paul Simon’s 1986 album “Graceland” was followed by a 1987 tour, including this show in Harare, Zimbabwe.",
+                          "copyright": "Penny Tweedie\/CORBIS",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELANDjp\/14GRACELANDjp-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELANDjp\/14GRACELANDjp-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/14\/arts\/14GRACELANDjp\/14GRACELANDjp-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/business\/international\/japans-top-voice-high-polite-and-on-the-phone.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "Business Day",
+                "byline": "By HIROKO TABUCHI",
+                "title": "Japan\u2019s Top Voice: High, Polite and on the Phone",
+                "abstract": "The annual All-Japan Phone-Answering Competition for office workers is a closely watched contest that some say reiterates the stereotype of women in clerical positions.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "WOMEN AND GIRLS"
+                              ],
+                "org_facet": [
+                              "AMAZON.COM INC",
+                              "AMZN",
+                              "NASDAQ"
+                              ],
+                "per_facet": "",
+                "geo_facet": [
+                              "JAPAN"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Mika Otani and more than 12,000 other Japanese competed in a telephone-answering contest, a showcase of cultural etiquette.",
+                          "copyright": "Kentaro Takahashi for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/reception\/reception-thumbStandard-v2.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/reception\/reception-thumbLarge-v2.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/reception\/reception-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "A record 12,613 office workers sought to compete this year in the annual All-Japan Phone-Answering Competition in Sendai.",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/jp-reception\/jp-reception-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/jp-reception\/jp-reception-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/business\/jp-reception\/jp-reception-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/leaked-harvards-grading-rubric.html",
+                "count_type": "EMAILED",
+                "column": "Loose Ends",
+                "section": "Opinion",
+                "byline": "By NATHANIEL STEIN",
+                "title": "Leaked! Harvard\u2019s Grading Rubric",
+                "abstract": "A review of the grading guidelines rubric at Harvard (hint: an A is usually right, or an A+).",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "GRADING OF STUDENTS"
+                              ],
+                "org_facet": [
+                              "HARVARD UNIVERSITY"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": ""
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/opinion\/sunday\/douthat-the-daughter-theory.html",
+                "count_type": "EMAILED",
+                "column": "Op-Ed Columnist",
+                "section": "Opinion",
+                "byline": "By ROSS DOUTHAT",
+                "title": "The Daughter Theory",
+                "abstract": "Does raising girls make parents conservative?",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "WOMEN AND GIRLS",
+                              "PARENTING"
+                              ],
+                "org_facet": [
+                              "REPUBLICAN PARTY"
+                              ],
+                "per_facet": "",
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Ross Douthat",
+                          "copyright": "Josh Haner\/The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2010\/09\/16\/opinion\/Douthat_New\/Douthat_New-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2010\/09\/16\/opinion\/Douthat_New\/Douthat_New-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/books\/review\/the-10-best-books-of-2013.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "Books",
+                "byline": "",
+                "title": "The 10 Best Books of 2013",
+                "abstract": "The year\u2019s best books, selected by the editors of The New York Times Book Review.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "BOOKS AND LITERATURE"
+                              ],
+                "org_facet": "",
+                "per_facet": [
+                              "FINK, SHERI",
+                              "ATKINSON, KATE",
+                              "ADICHIE, CHIMAMANDA NGOZI",
+                              "CLARK, CHRISTOPHER",
+                              "BLINDER, ALAN S",
+                              "BAKER, PETER",
+                              "TARTT, DONNA",
+                              "DERANIYAGALA, SONALI",
+                              "SAUNDERS, GEORGE",
+                              "KUSHNER, RACHEL"
+                              ],
+                "geo_facet": "",
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "",
+                          "copyright": "Todd St. John",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/books\/review\/15cover-sub\/15cover-sub-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/books\/review\/15cover-sub\/15cover-sub-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/books\/review\/15cover-sub\/15cover-sub-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/us\/a-utah-law-prohibiting-polygamy-is-weakened.html",
+                "count_type": "EMAILED",
+                "column": "",
+                "section": "U.S.",
+                "byline": "By JOHN SCHWARTZ",
+                "title": "A Utah Law Prohibiting Polygamy Is Weakened",
+                "abstract": "A federal judge struck down parts of Utah\u2019s anti-polygamy law as unconstitutional in a case brought by a star of \u201cSister Wives,\u201d the reality television show.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "POLYGAMY",
+                              "COURTS AND THE JUDICIARY"
+                              ],
+                "org_facet": [
+                              "SUPREME COURT (US)"
+                              ],
+                "per_facet": [
+                              "WADDOUPS, CLARK"
+                              ],
+                "geo_facet": [
+                              "UTAH"
+                              ],
+                "media": ""
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/14\/opinion\/what-tech-hasnt-learned-from-urban-planning.html",
+                "count_type": "EMAILED",
+                "column": "Op-Ed | Allison Arieff",
+                "section": "Opinion",
+                "byline": "By ALLISON ARIEFF",
+                "title": "What Tech Hasn\u2019t Learned From Urban Planning",
+                "abstract": "Companies flock to cities talking of community, then proceed to isolate themselves from the urban experience.",
+                "published_date": "2013-12-14",
+                "source": "The New York Times",
+                "des_facet": "",
+                "org_facet": [
+                              "TWITTER",
+                              "SQUARE INC",
+                              "GOOGLE INC",
+                              "FACEBOOK INC"
+                              ],
+                "per_facet": "",
+                "geo_facet": [
+                              "SAN FRANCISCO (CALIF)"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Allison Arieff",
+                          "copyright": "Jim Wilson for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/10\/04\/opinion\/Arieff_contributor\/contibutors-images-slide-Z1L4-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/10\/04\/opinion\/Arieff_contributor\/contibutors-images-slide-Z1L4-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/10\/04\/opinion\/Arieff_contributor\/contibutors-images-slide-Z1L4-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "With cafes and sandwich shops shuttered, only \"the taster,\" one-time symbol of Hills Brothers Coffee, still has access to coffee in Hills Plaza.",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-W3DH\/06arieff-img-slide-W3DH-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-W3DH\/06arieff-img-slide-W3DH-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-W3DH\/06arieff-img-slide-W3DH-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Once a fairly vibrant pedestrian space, this mostly deserted plaza now feels more like something rendered by de Chirico.",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-99TG\/06arieff-img-slide-99TG-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-99TG\/06arieff-img-slide-99TG-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-99TG\/06arieff-img-slide-99TG-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "The \"ballet of the good sidewalk always replete with new observations,\" as described by Jane Jacobs, is nowhere in evidence in front of Twitter's headquarters.",
+                          "copyright": "",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-QL5X\/06arieff-img-slide-QL5X-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-QL5X\/06arieff-img-slide-QL5X-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/06\/opinion\/06arieff-img-slide-QL5X\/06arieff-img-slide-QL5X-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                },
+                {
+                "url": "http:\/\/www.nytimes.com\/2013\/12\/15\/travel\/at-paris-brasseries-cuisine-to-match-the-scene.html",
+                "count_type": "EMAILED",
+                "column": "Choice Tables",
+                "section": "Travel",
+                "byline": "By ALEXANDER LOBRANO",
+                "title": "At Paris Brasseries, Cuisine to Match the Scene",
+                "abstract": "In recent years, the city\u2019s brasseries have gained a reputation for mediocrity. But at these four spots, diners can find both a lively atmosphere and satisfying food.",
+                "published_date": "2013-12-15",
+                "source": "The New York Times",
+                "des_facet": [
+                              "RESTAURANTS"
+                              ],
+                "org_facet": [
+                              "MICHELIN GROUP",
+                              "MGDDF",
+                              "OTHER-OTC"
+                              ],
+                "per_facet": "",
+                "geo_facet": [
+                              "PARIS (FRANCE)"
+                              ],
+                "media": [
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Diners at Lazare, a new spot in the Eighth Arrondissement.",
+                          "copyright": "Ed Alcock for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-span\/15-choice-span-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-span\/15-choice-span-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-span\/15-choice-span-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "The chef Eric Frechon.",
+                          "copyright": "Ed Alcock for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-lazare2\/15-choice-lazare2-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-lazare2\/15-choice-lazare2-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-lazare2\/15-choice-lazare2-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Steak tartare at La Rotonde.",
+                          "copyright": "Ed Alcock for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-tartare\/15-choice-tartare-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-tartare\/15-choice-tartare-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-tartare\/15-choice-tartare-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          },
+                          {
+                          "type": "image",
+                          "subtype": "photo",
+                          "caption": "Mini Palais opened in 2011.",
+                          "copyright": "Ed Alcock for The New York Times",
+                          "media-metadata": [
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-palais\/15-choice-palais-thumbStandard.jpg",
+                                             "format": "Standard Thumbnail",
+                                             "height": 75,
+                                             "width": 75
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-palais\/15-choice-palais-thumbLarge.jpg",
+                                             "format": "thumbLarge",
+                                             "height": 150,
+                                             "width": 150
+                                             },
+                                             {
+                                             "url": "http:\/\/graphics8.nytimes.com\/images\/2013\/12\/15\/travel\/15-choice-palais\/15-choice-palais-mediumThreeByTwo210.jpg",
+                                             "format": "mediumThreeByTwo210",
+                                             "height": 140,
+                                             "width": 210
+                                             }
+                                             ]
+                          }
+                          ]
+                }
+                ]
+}
